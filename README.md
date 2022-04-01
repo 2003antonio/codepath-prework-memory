@@ -43,10 +43,10 @@ The following **additional** features are implemented:
 ## Video Walkthrough (GIF)
 
 If you recorded multiple GIFs for all the implemented features, you can add them here:
-![](https://github.com/2003antonio/gifs/blob/main/memory-game-win.gif)
-![](https://github.com/2003antonio/gifs/blob/main/memory-game-lose.gif)
-![](https://github.com/2003antonio/gifs/blob/main/blitz-mode-win.gif)
-![](https://github.com/2003antonio/gifs/blob/main/blitz-mode-lose.gif)
+![Classic-Win](https://github.com/2003antonio/gifs/blob/main/memory-game-win.gif)
+![Classic-Lose](https://github.com/2003antonio/gifs/blob/main/memory-game-lose.gif)
+![Blitz-Win](https://github.com/2003antonio/gifs/blob/main/blitz-mode-win.gif)
+![Blitz-Lose](https://github.com/2003antonio/gifs/blob/main/blitz-mode-lose.gif)
 
 ## Reflection Questions
 1. If you used any outside resources to help complete your submission (websites, books, people, etc) list them here. 
