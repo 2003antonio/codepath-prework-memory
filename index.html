@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="icon" href="https://glitch.com/favicon.ico" />
+
+    <title>Memory Game</title>
+
+    <!-- import the webpage's stylesheet -->
+    <link rel="stylesheet" href="/style.css" />
+
+    <!-- import the webpage's javascript file -->
+    <script src="/script.js" defer></script>
+  </head>
+  <body>
+    <!-- Title of game -->
+    <h1>Memory</h1>
+    <!-- Classic Mode game text -->
+    <p id="normalGameText">
+      Welcome to Classic Memory! Repeat back the pattern by pressing the
+      buttons. You get 15 seconds per round and 3 strikes a game. Good luck!
+    </p>
+    <!-- Strikes area (3 chances in classic mode) -->
+    <div id="playerStrikeArea">
+      <h2>Strikes:</h2>
+      <h3 id="strikeOne" class="hidden">X</h3>
+      <h3 id="strikeTwo" class="hidden">X</h3>
+      <h3 id="strikeThree" class="hidden">X</h3>
+    </div>
+    <!-- Setting up Blitz Mode buttons and game text -->
+    <div id="blitzModeArea">
+      <button id="blitzModeButtonOff" onclick="blitzModeOn()">
+        Blitz: OFF
+      </button>
+      <button id="blitzModeButtonOn" onclick="blitzModeOff()" class="hidden">
+        Blitz: ON
+      </button>
+      <p id="blitzModeText" class="hidden">
+        Think you have what it takes to beat Blitz Mode? Everything here is
+        faster and if you mess up, you lose! Good luck!
+      </p>
+    </div>
+
+    <!-- Regular Start and Stop button  -->
+    <button id="startBtn" onclick="startGame()">Start</button>
+
+    <button id="stopBtn" class="hidden" onclick="stopGame()">Stop</button>
+    <!-- Game Buttons with pictures and on click eventd -->
+    <div id="gameButtonArea">
+      <button
+        id="button1"
+        onclick="guess(1)"
+        onmousedown="mouseDownFunc(1)"
+        onmouseup="mouseUpFunc(1)"
+      >
+        <img
+          src="https://cdn.glitch.global/8f968363-2c16-4035-8c7f-dcf24ac4cd7f/thanos.webp?v=1648318826493"
+          alt="Thanos"
+          id="image1"
+          class="hidden"
+        />
+      </button>
+
+      <button
+        id="button2"
+        onclick="guess(2)"
+        onmousedown="mouseDownFunc(2)"
+        onmouseup="mouseUpFunc(2)"
+      >
+        <img
+          src="https://cdn.glitch.global/8f968363-2c16-4035-8c7f-dcf24ac4cd7f/captainAmerica.jpg?v=1648318844867"
+          alt="Captain America"
+          id="image2"
+          class="hidden"
+        />
+      </button>
+
+      <button
+        id="button3"
+        onclick="guess(3)"
+        onmousedown="mouseDownFunc(3)"
+        onmouseup="mouseUpFunc(3)"
+      >
+        <img
+          src="https://cdn.glitch.global/8f968363-2c16-4035-8c7f-dcf24ac4cd7f/wolverine.jpg?v=1648318829091"
+          alt="Wolverine"
+          id="image3"
+          class="hidden"
+        />
+      </button>
+
+      <button
+        id="button4"
+        onclick="guess(4)"
+        onmousedown="mouseDownFunc(4)"
+        onmouseup="mouseUpFunc(4)"
+      >
+        <img
+          src="https://cdn.glitch.global/8f968363-2c16-4035-8c7f-dcf24ac4cd7f/spidermanPoint.jpg?v=1648318822673"
+          alt="The 3 Spidermen"
+          id="image4"
+          class="hidden"
+        />
+      </button>
+
+      <button
+        id="button5"
+        onclick="guess(5)"
+        onmousedown="mouseDownFunc(5)"
+        onmouseup="mouseUpFunc(5)"
+      >
+        <img
+          src="https://cdn.glitch.global/8f968363-2c16-4035-8c7f-dcf24ac4cd7f/theHulk.jpg?v=1648319762055"
+          alt="The Hulk"
+          id="image5"
+          class="hidden"
+        />
+      </button>
+      <!-- Timer text and time -->
+      <div id="timerArea">
+        <h2 id="timerText">Time:</h2>
+        <h3 id="timer">15</h3>
+      </div>
+    </div>
+  </body>
+</html>
