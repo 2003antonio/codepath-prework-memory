@@ -39,6 +39,7 @@ The following **additional** features are implemented:
 - [x] Different win and losing alerts based on if time ran out, too many strikes, game mode, or if the user won
 - [x] The amount of strikes the user has gets shown on the screen.
 - [x] If the user drags a button by mistake while trying to click, the game keeps playing, instead of crashing 
+- [x] User cannot change between game modes if the game is already playing
 
 ## Video Walkthrough (GIF)
 
