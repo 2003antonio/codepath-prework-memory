@@ -2,9 +2,9 @@
 
 **Memory Game** is a Light & Sound Memory game to apply for CodePath's SITE Program. 
 
-Submitted by: Antonio Eduardo Martinez
+Submitted by: **Antonio Eduardo Martinez**
 
-Time spent: 19:37 hours spent in total
+Time spent: **19:37** hours spent in total
 
 Link to project: https://glitch.com/edit/#!/online-memory-game
 
@@ -43,10 +43,10 @@ The following **additional** features are implemented:
 ## Video Walkthrough (GIF)
 
 If you recorded multiple GIFs for all the implemented features, you can add them here:
-![Classic-Win](https://github.com/2003antonio/gifs/blob/main/memory-game-win.gif)
-![Classic-Lose](https://github.com/2003antonio/gifs/blob/main/memory-game-lose.gif)
-![Blitz-Win](https://github.com/2003antonio/gifs/blob/main/blitz-mode-win.gif)
-![Blitz-Lose](https://github.com/2003antonio/gifs/blob/main/blitz-mode-lose.gif)
+![](https://raw.githubusercontent.com/2003antonio/codepath-prework-memory/main/gifs/memory-game-win.gif)
+![](https://github.com/2003antonio/codepath-prework-memory/blob/main/gifs/memory-game-lose.gif)
+![](https://github.com/2003antonio/codepath-prework-memory/blob/main/gifs/blitz-mode-win.gif)
+![](https://github.com/2003antonio/codepath-prework-memory/blob/main/gifs/blitz-mode-lose.gif)
 
 ## Reflection Questions
 1. If you used any outside resources to help complete your submission (websites, books, people, etc) list them here. 
