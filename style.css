@@ -1,0 +1,130 @@
+/* a minimalist set of CSS resets */
+
+/* default to border-box */
+html {
+  box-sizing: border-box;
+  font-size: 18px;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+/* adjust typography defaults */
+body {
+  margin: 1rem;
+  font-family: courier new, arial, sans-serif;
+  line-height: 1.5em;
+  background-color: seashell;
+  color: black;
+  margin-right: 300px;
+}
+
+h1 {
+  font-family: verdana, arial, sans-serif;
+}
+
+h2 {
+  font-family: courier new, verdana, sans-serif;
+  position: absolute;
+  right: 150px;
+  top: 35px;
+  color: red;
+}
+#strikeOne {
+  position: absolute;
+  right: 130px;
+  top: 39px;
+  color: red;
+}
+#strikeTwo {
+  position: absolute;
+  right: 110px;
+  top: 39px;
+  color: red;
+}
+#strikeThree {
+  position: absolute;
+  right: 90px;
+  top: 39px;
+  color: red;
+}
+#startBtn {
+  background: lightgreen;
+  width: 100px;
+  height: 40px;
+  border-radius: 18px;
+}
+#stopBtn {
+  background: #fd5e53;
+  width: 100px;
+  height: 40px;
+  border-radius: 18px;
+}
+
+#gameButtonArea > button {
+  width: 200px;
+  height: 200px;
+  margin: 2px;
+  border-radius: 18px;
+}
+.hidden {
+  display: none;
+}
+
+#button1 {
+  background: lavender;
+}
+#button2 {
+  background: paleturquoise;
+}
+#button3 {
+  background: lemonchiffon;
+}
+#button4 {
+  background: lightpink;
+}
+#button5 {
+  background: honeydew;
+}
+
+#timerText {
+  position: absolute;
+  right: 150px;
+  top: 62.5px;
+  color: red;
+}
+#timer {
+  position: absolute;
+  right: 120px;
+  top: 66.5px;
+  color: red;
+}
+#blitzModeButtonOff{
+  background: lightgreen;
+  width: 80px;
+  height: 40px;
+  border-radius: 18px;
+  position: absolute;
+  right: 150px;
+  top: 115px;
+}
+#blitzModeButtonOn{
+  background: #fd5e53;
+  width: 80px;
+  height: 40px;
+  border-radius: 18px;
+  position: absolute;
+  right: 150px;
+  top: 115px;
+}
+
+img,
+video {
+  width: 200px;
+  height: 200px;
+  margin: -7px;
+  border-radius: 18px;
+}
