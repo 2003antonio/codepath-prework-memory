@@ -44,9 +44,9 @@ The following **additional** features are implemented:
 
 If you recorded multiple GIFs for all the implemented features, you can add them here:
 ![](https://github.com/2003antonio/gifs/blob/main/memory-game-win.gif)
-![x]https://github.com/2003antonio/gifs/blob/main/memory-game-lose.gif
-![x]https://github.com/2003antonio/gifs/blob/main/blitz-mode-win.gif
-![x]https://github.com/2003antonio/gifs/blob/main/blitz-mode-lose.gif
+![](https://github.com/2003antonio/gifs/blob/main/memory-game-lose.gif)
+![](https://github.com/2003antonio/gifs/blob/main/blitz-mode-win.gif)
+![](https://github.com/2003antonio/gifs/blob/main/blitz-mode-lose.gif)
 
 ## Reflection Questions
 1. If you used any outside resources to help complete your submission (websites, books, people, etc) list them here. 
@@ -70,7 +70,7 @@ With a few more hours to work on this project I would try implementing a more un
 
 ## Interview Recording URL Link
 
-[My 5-minute Interview Recording]https://www.loom.com/share/77845928f515449c8d2e849509528025
+[My 5-minute Interview Recording](https://www.loom.com/share/77845928f515449c8d2e849509528025)
 
 
 ## License
